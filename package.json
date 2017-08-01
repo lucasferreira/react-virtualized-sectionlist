@@ -1,8 +1,10 @@
 {
   "name": "react-virtualized-sectionlist",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "React SectionList component based in react-virtualized List",
   "main": "dist/commonjs/index.js",
+  "module": "dist/es/index.js",
+  "jsnext:main": "dist/es/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/lucasferreira/react-virtualized-sectionlist.git"
@@ -18,8 +20,12 @@
     "clean:commonjs": "rimraf dist/commonjs",
     "clean:es": "rimraf dist/es",
     "clean:umd": "rimraf dist/umd",
-    "start": "exit 1"
+    "prepublish": "npm run build",
+    "start": "npm run build"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "react",
     "reactjs",
@@ -47,6 +53,7 @@
   },
   "dependencies": {
     "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "classnames": "^2.2.5",
     "react-virtualized": "^9.9.0"
   },
   "peerDependencies": {
