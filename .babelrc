@@ -1,0 +1,58 @@
+{
+  "env": {
+    "commonjs": {
+      "presets": [
+        "es2015",
+        "react",
+        "stage-1"
+      ]
+    },
+    "development": {
+      "presets": [
+        "es2015",
+        "react",
+        "stage-1"
+      ]
+    },
+    "es": {
+      "plugins": [
+        "transform-runtime"
+      ],
+      "presets": [
+        "es2015",
+        "react",
+        "stage-1"
+      ]
+    },
+    "umd": {
+      "plugins": [
+        "transform-runtime",
+        "transform-es2015-modules-umd"
+      ],
+      "presets": [
+        "es2015",
+        "react",
+        "stage-1"
+      ]
+    },
+    "production": {
+      "comments": false,
+      "plugins": [
+        "transform-runtime"
+      ],
+      "presets": [
+        "es2015",
+        "react",
+        "stage-1"
+      ]
+    },
+    "test": {
+      "comments": false,
+      "presets": [
+        "es2015",
+        "react",
+        "stage-1"
+      ]
+    }
+  }
+}

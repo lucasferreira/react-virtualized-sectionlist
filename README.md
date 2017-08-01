@@ -1,2 +1,2 @@
 # react-virtualized-sectionlist
-React SectionList component based in react-virtualized
+React SectionList component based in react-virtualized List
