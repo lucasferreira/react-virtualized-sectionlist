@@ -4,7 +4,7 @@ import { List } from 'react-virtualized';
 export default class SectionList extends PureComponent {
   static defaultProps = {
     ...List.defaultProps,
-    data: [],
+    sections: [],
   };
   constructor(props, context) {
     super(props, context);

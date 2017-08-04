@@ -1,6 +1,6 @@
 {
   "name": "react-virtualized-sectionlist",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "React SectionList component based in react-virtualized List",
   "main": "dist/commonjs/index.js",
   "module": "dist/es/index.js",
